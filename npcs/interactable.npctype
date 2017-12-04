@@ -1,0 +1,24 @@
+{
+  "type" : "interactable",
+  "baseType" : "base",
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "emptyHands" : true
+    },
+
+    "interactAction" : "OpenAiInterface",
+    "interactData" : {}
+    },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "protectoratechest" } ],
+            "legs" : [ { "name" : "protectoratepants" } ]
+          }
+        ] ]
+    ]
+  }
+}
